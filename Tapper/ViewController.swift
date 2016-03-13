@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
     
     // Variables/Properties
     var maxTaps = 0
@@ -35,7 +35,7 @@ class ViewController: UIViewController {
     // Play function
     @IBAction func onPlayButtonPressed(sender: UIButton!){
         
-        if howManyTapsTxt.text != nil && howManyTapsTxt.text != ""{
+        if howManyTapsTxt.text != nil && howManyTapsTxt.text != "" && howManyTapsTxt.text != "0" {
             
             logoImg.hidden = true
             playBttn.hidden = true
@@ -73,6 +73,22 @@ class ViewController: UIViewController {
     
     func updateTapsLbl(){
         tapsLbl.text = "\(currentTaps) Taps"
+    }
+    
+    
+    // Dismiss keyboard section
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        //Looks for single or multiple taps.
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        view.addGestureRecognizer(tap)
+    }
+    
+    //Calls this function when the tap is recognized.
+    func dismissKeyboard() {
+        //Causes the view (or one of its embedded text fields) to resign the first responder status.
+        view.endEditing(true)
     }
 
 }
