@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E3E96324666CB0A749334B8EDA96B257FAEFFABC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CE53D30A89610067E2DF4522C7A5762C6AF470ED" : 0,
+    "E3E96324666CB0A749334B8EDA96B257FAEFFABC" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D815CEF1-221E-489E-B4CC-12A7605DAA64",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CE53D30A89610067E2DF4522C7A5762C6AF470ED" : "..",
+    "E3E96324666CB0A749334B8EDA96B257FAEFFABC" : "Tapper\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "tapper-extreme",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "tapper-extreme.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/woemike\/Dungeon.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CE53D30A89610067E2DF4522C7A5762C6AF470ED"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/woemike\/Tapper.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E3E96324666CB0A749334B8EDA96B257FAEFFABC"
+    }
+  ]
+}
